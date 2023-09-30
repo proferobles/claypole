@@ -25,7 +25,7 @@ var azul = L.icon
 		//shadowSize: [50, 50] // igual a icono
 		});
 
-var lospibesdesolano = L.marker([-34.7879085,-58.3179796], {icon: azul},13).bindPopup("<strong>Los Pibes de Solano</strong>" + "<br/>" + "Ubicacion: Clavel N°630, Solano" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/09/IMG-20230929-WA0049.jpg'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
+var lospibesdesolano = L.marker([-34.7879085,-58.3179796], {icon: azul},13).bindPopup("<strong>Peña 3 de Marzo</strong>" + "<br/>" + "Ubicacion: Clavel N°630, Solano" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/09/IMG-20230929-WA0049.jpg'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
 
 
 var baseMaps = [
@@ -46,7 +46,7 @@ var overlays = [
 								groupName : "MURALES DEL TAMBO",
 								expanded : true,
 								layers    : { 
-									"Los PIbes de Solano":lospibesdesolano,
+									"Peña 3 de Marzo":lospibesdesolano,
 									
 									
 								}	
