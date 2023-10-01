@@ -19,8 +19,8 @@ var azul = L.icon
 		({
 		iconUrl: 'https://atodaspartes.ar/wp-content/uploads/2023/09/claypole.png',
 		shadowUrl: '',
-		iconSize: [30, 30], //recomendado
-		iconAnchor: [15, 30], //la itad e igual
+		iconSize: [20, 20], //recomendado
+		iconAnchor: [10, 30], //la itad e igual
 		popupAnchor: [0, -10],
 		//shadowSize: [50, 50] // igual a icono
 		});
