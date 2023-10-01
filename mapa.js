@@ -26,7 +26,7 @@ var azul = L.icon
 		});
 
 var lospibesdesolano = L.marker([-34.7879085,-58.3179796], {icon: azul},13).bindPopup("<strong>Peña 3 de Marzo</strong>" + "<br/>" + "Ubicacion: Clavel N°630, Solano" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/09/IMG-20230929-WA0049.jpg'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
-
+var barriosanlucas = L.marker([-34.8167036,-58.3580534], {icon: azul},13).bindPopup("<strong>Barrio San Lucas</strong>" + "<br/>" + "Ubicacion: 2 de abril N° 2843, Claypole" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/09/IMG_20230922_143752_952-min-Javier-agustin-111-scaled.webp'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
 
 var baseMaps = [
 			                { 
@@ -47,6 +47,7 @@ var overlays = [
 								expanded : true,
 								layers    : { 
 									"Peña 3 de Marzo":lospibesdesolano,
+									"Barrio San Lucas": barriosanlucas,
 									
 									
 								}	
