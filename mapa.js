@@ -28,6 +28,8 @@ var azul = L.icon
 var lospibesdesolano = L.marker([-34.7879085,-58.3179796], {icon: azul},13).bindPopup("<strong>Peña 3 de Marzo</strong>" + "<br/>" + "Ubicacion: Clavel N°630, Solano" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/09/IMG-20230929-WA0049.jpg'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
 var barriosanlucas = L.marker([-34.8167036,-58.3580534], {icon: azul},13).bindPopup("<strong>Barrio San Lucas</strong>" + "<br/>" + "Ubicacion: 2 de abril N° 2843, Claypole" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/09/IMG_20230922_143752_952-min-Javier-agustin-111-scaled.webp'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
 var barriohorizonte = L.marker([-34.7973805,-58.3283331], {icon: azul},13).bindPopup("<strong>Barrio Horizonte</strong>" + "<br/>" + "Ubicacion: Primavera y Rinconada, Solano" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/10/enano.jpg'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
+var barriolaestrella = L.marker([-34.7894017,-58.3168019], {icon: azul},13).bindPopup("<strong>Los Legendarios (B° La Estrella)</strong>" + "<br/>" + "Ubicacion: Nomeolvides N° 6457, Solano" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/10/98784BD9-0BC4-450B-A184-D320D7CACE3F-racing-Acade-e1696175712716.png'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
+// var barriohorizonte = L.marker([-34.7894017,-58.3168019], {icon: azul},13).bindPopup("<strong>Los Legendarios (B° La Estrella)</strong>" + "<br/>" + "Ubicacion: Nomeolvides N° 6457, Solano" + "<br/>"  + "<img src= 'https://atodaspartes.ar/wp-content/uploads/2023/10/98784BD9-0BC4-450B-A184-D320D7CACE3F-racing-Acade-e1696175712716.png'/>" + "<A HREF='https://forms.gle/33CVhuAnv3w9jPVZA'target=_blank> Subí el mural de tu barrio </A> " ).on('click', xxy).addTo(map);
 
 var baseMaps = [
 			                { 
@@ -50,6 +52,7 @@ var overlays = [
 									"Peña 3 de Marzo":lospibesdesolano,
 									"Barrio San Lucas": barriosanlucas,
 									"Barrio Horizonte": barriohorizonte,
+									"Los Legendarios": barriolaestrella,
 									
 									
 								}	
